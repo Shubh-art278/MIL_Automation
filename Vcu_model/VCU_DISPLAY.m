@@ -1,0 +1,23 @@
+classdef VCU_DISPLAY < Simulink.IntEnumType
+    enumeration
+        DISP_INIT(0)
+        DISP_PARK(1)
+        DISP_PARK_WARN(2)
+        DISP_FAIL_THERMAL(3)
+        DISP_FAIL_SOC(4)
+        DISP_FAIL_CRITICAL(5)
+        DISP_FAIL_SNSR(6)
+        DISP_FAIL_TEMP(6)
+        DISP_FAIL_CURR(7)
+        DISP_PARK_TEMP(8)
+        DISP_PARK_WHL(9)
+        DISP_PARK_STDBY(10)
+        DISP_PARK_SEAT(11)
+        DISP_DRV_LIMP(12)
+        DISP_DRV_REV(13)
+        DISP_DRV_NORM(14)
+        DISP_DRV_ECO(15)
+        DISP_DRV_SPORT(16)
+        DISP_DRV_TURBO(17)
+    end
+end
